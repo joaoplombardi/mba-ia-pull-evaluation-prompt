@@ -45,6 +45,7 @@ ENV/
 *.log
 
 # Project specific
-screenshots/
+# screenshots/ é versionado de propósito: as capturas da avaliação fazem
+# parte da entrega e são referenciadas pelo README.
 results/
 .claude/
