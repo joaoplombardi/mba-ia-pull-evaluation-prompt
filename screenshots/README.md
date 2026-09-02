@@ -4,7 +4,12 @@ Capturas de tela que comprovam o resultado da avaliação.
 
 ## O que capturar
 
-Rode a avaliação e capture a saída completa do terminal:
+Rode a avaliação e capture a saída completa do terminal (ative o venv antes —
+no macOS o comando `python` só existe depois disso):
+
+```bash
+source venv/bin/activate
+```
 
 ```bash
 python src/evaluate.py

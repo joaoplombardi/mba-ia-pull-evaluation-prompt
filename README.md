@@ -66,6 +66,19 @@ No Windows: `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+> **Ative o venv em todo terminal novo.** No macOS e em boa parte das distros
+> Linux não existe o comando `python`, apenas `python3` — o `python` só passa a
+> existir depois do `source venv/bin/activate` (você reconhece pelo `(venv)` no
+> início da linha do terminal). Sem ativar, `python` dá
+> `command not found`; e rodar com o `python3` do sistema dá
+> `ModuleNotFoundError`, porque as dependências ficam dentro de `venv/`.
+>
+> Alternativa sem ativar nada, válida em qualquer shell:
+>
+> ```bash
+> ./venv/bin/python src/evaluate.py
+> ```
+
 ### 2. Configurar credenciais
 
 Copie o template e preencha suas chaves:
